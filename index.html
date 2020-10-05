@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap"
+        rel="stylesheet">
+
+    <title>Jake's Portfolio</title>
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary__main">Jake Januszanis</span>
+                <span class="heading-primary__sub">Full Stack Web Developer</span>
+                <a id="projects-link" class="heading-subtext" href="#">Projects</a>
+                <a id="about-link" class="heading-subtext" href="#">About</a>
+                <a id="contact-link" class="heading-subtext" href="#">Contact</a>
+                <a id="resume-link" class="heading-subtext" href="#">Resume</a>
+            </h1>
+        </div>
+    </section>
+
+    <section class="projects-modal" id="projects-modal">
+    <div id='modal-box-display' class="modal-box-display">
+        <div id="project-modal-content" class='modal-content'>
+            <h1 class='modal-title'>Projects</h1>
+            <button id="close-btn" class="close-btn">&times;</button>
+        <!-- Project Modal Cards -->
+            <div class='cards'>
+                <div class=card-inner>
+                <div class='card card__1'>
+                    <div class="card__1--front">
+                        Project 1
+                    </div>
+                    <div class="card__1--back">
+                        Backside
+                    </div>
+                </div>
+            </div>
+                <div class="card-inner">
+                <div class="card card__2">
+                    <div class="card__2--front">
+                        Project 2
+                    </div>
+                    <div class="card__2--back">
+                        Backside
+                    </div>
+                </div>
+            </div>
+                <div class="card-inner">
+                <div class='card card__3'>
+                    <div class="card__3--front">
+                        Project 3
+                    </div>
+                    <div class="card__3--back">
+                        Backside
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id= "contact-modal" class="contact-modal">
+    <div id ="modal-box-display" class="modal-box-display">
+        <div class ="modal-content" id ="contact-modal-content">
+            <button id="contact-close-btn" class="close-btn">&times;</button>
+            <h1 class="modal-title">Contact Me</h1>
+            <span class="contact-subtext">Interested in working with me? Feel free to reach out</span>
+            <form class="contact-form">
+            <input type="text" id="contact-name" class="contact-name" name="firstname" placeholder="Name" required>
+            <input type="email" class="contact-email" placeholder="Enter Email" name="email" required>
+            <textarea id="contact-message" class="contact-message" name="subject" placeholder="Write something.."></textarea>
+            </form>
+        </div>
+    </div>  
+</section>
+
+<section id="about-modal" class="about-modal">
+    <div class="modal-box-display">
+        <div class="modal-content">
+            <div class='modal-title'>About Me</div>
+            <button id="about-close-btn" class="close-btn">&times;</button>
+            <p class="about-para">Hello, Im Jake Januszanis a full stack Web-Developer based out of Denver, CO. When it comes to programming I love problem solving aspect. Learning new ways to solve any problem that comes my way is something I find fasinating.Here a link to check out some of my projects on Github!</p>
+            <span class="about-icons">
+            <img class="icon" src="/CSS/images/html-5 (1).svg" alt="HTML logo">
+            <img class="icon" src="/CSS/images/css.svg" alt="CSS logo">
+            <img class="icon" src="/CSS/images/sass.svg" alt="Sass logo">
+            <img class="icon" src="/CSS/images/nodejs.svg" alt="Node.js logo">
+            <img class="icon" src="/CSS/images/react.svg" alt="React logo">
+            </span>
+        </div>
+    </div>
+</section>
+
+<section id="resume-modal" class="resume-modal">
+    <div class="modal-box-display">
+        <div class="modal-content">
+            <button id="resume-close-btn" class="close-btn">&times;</button>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <section class="section-about">
+        <h2 class="about-me-header">About</h2>
+        <div class="icon-box">
+            <img class="icon" src="/CSS/images/html-5 (1).svg" alt="HTML logo">
+            <img class="icon" src="/CSS/images/css.svg" alt="CSS logo">
+            <img class="icon" src="/CSS/images/sass.svg" alt="Sass logo">
+            <img class="icon" src="/CSS/images/nodejs.svg" alt="Node.js logo">
+            <img class="icon" src="/CSS/images/react.svg" alt="React logo">
+        </div> 
+        <p class=about-me-info>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum maxime minima voluptatem enim, cupiditate dolorum perferendis cum, doloremque error nostrum modi dolore nulla recusandae a quo dolorem harum dignissimos?</p>
+    </section>
+
+
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->

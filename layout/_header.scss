@@ -1,0 +1,10 @@
+
+.header {
+    background-image: url(../CSS/images/background-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    filter: brightness(60%);
+    // clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}

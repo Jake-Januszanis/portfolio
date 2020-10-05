@@ -1,0 +1,93 @@
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30rem;
+    padding-top: 5rem;
+
+}
+.card-inner {
+    border: 1px solid black;
+    width: 25%;
+    height: 30rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+    transition: transform 3s;
+    position: relative;
+    transform-style: preserve-3d;
+    
+
+    &:hover {
+        transform: rotateY(180deg);
+    }
+}
+    .card { 
+        border-radius: 10px;
+    // Card 1
+    &__1 {
+        &--front {
+            background-image: url(/CSS/images/card-filler-img-1.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            position: absolute;
+            width: 100%;  
+            border-radius: 10px;
+        }
+        &--back {
+            transform: rotateY(180deg);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+            
+        }
+    }
+    // Card 2
+    &__2 {
+        &--front {
+            background-image: url(/CSS/images/card-filler-2.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            position: absolute;
+            width: 100%;  
+            border-radius: 10px;
+        }
+
+        &--back {
+            transform: rotateY(180deg);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+        }
+    }
+    // Card 3 
+    &__3 {
+        &--front {
+            background-image: url(/CSS/images/card-filler-3.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            position: absolute;
+            width: 100%;  
+            border-radius: 10px;
+        }
+
+        &--back {
+            transform: rotateY(180deg);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+        }
+    }
+}
+
+

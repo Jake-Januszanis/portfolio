@@ -1,0 +1,16 @@
+
+.close-btn {
+    font-size: 3rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    top: -6px;
+    right: 9px;
+    color: #fff;
+
+    &:focus {
+        outline: none;
+    }
+}
